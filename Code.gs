@@ -14,9 +14,11 @@ function myFunction() {
   //let newArr = arr.map((r) => {return r + "-0"})
   //new arrow function refactored
    let newArr = arr.map(r => r + "-0" )
- 
- 
   
   console.log(newArr);
   
+  let p1 = new Person("Hottie",21);
+  console.log(p1.name)
+  
 }
+
